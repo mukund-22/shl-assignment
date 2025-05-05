@@ -14,25 +14,24 @@ import numpy as np
 from scipy.special import comb
 
 # Change from relative import to absolute import
-from backend.utils import (
+from utils import (
     _safe_indexing,
     check_random_state,
     indexable,
     metadata_routing,
 )
 
-from backend.utils._array_api import (
+from utils._array_api import (
     _convert_to_numpy,
     ensure_common_namespace_device,
     get_namespace,
 )
 
-from backend.utils._param_validation import Interval, RealNotInt, validate_params
-from backend.utils.extmath import _approximate_mode
-from backend.utils.metadata_routing import _MetadataRequester
-from backend.utils.multiclass import type_of_target
-from backend.utils.validation import _num_samples, check_array, column_or_1d
-
+from utils._param_validation import Interval, RealNotInt, validate_params
+from utils.extmath import _approximate_mode
+from utils.metadata_routing import _MetadataRequester
+from utils.multiclass import type_of_target
+from utils.validation import _num_samples, check_array, column_or_1d
 
 __all__ = [
     "BaseCrossValidator",
