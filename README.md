@@ -68,8 +68,8 @@ A benchmark set of queries is derived from the test set. Each recommender is eva
 | Recall@K  | Fraction of relevant items in top K        |
 | MAP@K     | Mean Average Precision at top K            |
 
-**Sample Score (Baseline Recommender):**
-```text
+**Score (Baseline Recommender):**
+
 Recall@5: 0.7542
 MAP@5:    0.7542
 ```
