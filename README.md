@@ -92,30 +92,6 @@ LLMs can fail due to token exhaustion or rate limits. We handle this gracefully:
 
 ---
 
-## 🧑‍💻 How to Run
-
-### 1. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Run scraper
-```bash
-python scraper.py
-```
-
-### 3. Preprocess JSON → CSV
-```bash
-python preprocess.py
-```
-
-### 4. Evaluate both models
-```bash
-python evaluate.py
-```
-
----
-
 ## 🌐 Deployment (Streamlit or Web)
 
 If you want to deploy this using Streamlit:
@@ -131,11 +107,5 @@ If you want to deploy this using Streamlit:
 - Use `sleep()` after every few requests to avoid bans
 - Maintain logs to identify when fallback was used
 
----
-
-## 📞 Contact
-
-If you're a recruiter or reviewer:  
-This project is developed independently under resource constraints and demonstrates my ability to integrate data collection, NLP pipelines, LLM APIs, and production-ready robustness.
 
 ---
