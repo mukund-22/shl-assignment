@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import requests
 
-
 # Basic config
 st.set_page_config(page_title="SHL Assessment Recommender", layout="centered", initial_sidebar_state="collapsed")
 
