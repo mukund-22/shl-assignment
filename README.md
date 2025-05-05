@@ -100,6 +100,11 @@ If you want to deploy this using Streamlit:
 - Use HuggingFace Spaces, Render, or [**Streamlit Community Cloud**](https://streamlit.io/cloud) (note: memory limited to 512MB)
 
 ---
+![System Architecture](C:\Users\Hello\Downloads\system-arch.png)
+
+
+
+---
 
 ## 💡 Notes
 
