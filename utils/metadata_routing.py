@@ -6,7 +6,8 @@
 # Authors: The scikit-learn developers
 # SPDX-License-Identifier: BSD-3-Clause
 
-from ._metadata_requests import (  # noqa: F401
+from utils._metadata_requests import ...
+
     UNCHANGED,
     UNUSED,
     WARN,
