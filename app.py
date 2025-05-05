@@ -56,6 +56,7 @@ def recommend_assessments(request: QueryRequest):
                 )
             )
         return RecommendResponse(recommended_assessments=recommended_assessments)
-
 if __name__ == "__main__":
-        uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
+    # Get the port from environment variable (or default to 10000)
+    port = int(os.environ.get("PORT", 10000))  
+    uvicorn.run("app:app", host="0.0.0.0", port=port)
