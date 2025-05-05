@@ -6,7 +6,7 @@
 # Authors: The scikit-learn developers
 # SPDX-License-Identifier: BSD-3-Clause
 
-from utils._metadata_requests import ...
+from utils._metadata_requests import (
 
     UNCHANGED,
     UNUSED,
