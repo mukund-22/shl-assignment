@@ -1,6 +1,16 @@
 # config.py
 
+
 import os
+
+def get_config():
+    return {
+        "model_path": os.getenv("MODEL_PATH", "models/your_model.pkl"),
+        "catalog_path": os.getenv("CATALOG_PATH", "data/catalog.json"),
+        "embedding_model": os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2"),
+        "top_k": int(os.getenv("TOP_K", 5)),
+        "debug": bool(int(os.getenv("DEBUG", 0)))
+    }
 
 class Config:
     """
