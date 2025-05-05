@@ -100,7 +100,7 @@ If you want to deploy this using Streamlit:
 - Use HuggingFace Spaces, Render, or [**Streamlit Community Cloud**](https://streamlit.io/cloud) (note: memory limited to 512MB)
 
 ---
-![System Architecture](C:\Users\Hello\Downloads\system-arch.png)
+[![System Architecture](C:\Users\Hello\Downloads\system-arch.png)](https://sdmntprwestus.oaiusercontent.com/files/00000000-d8fc-6230-9e54-aeb2925504b1/raw?se=2025-05-05T09%3A25%3A43Z&sp=r&sv=2024-08-04&sr=b&scid=94d27bcb-c672-598f-bbba-b2df0ef615fa&skoid=acefdf70-07fd-4bd5-a167-a4a9b137d163&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-04T18%3A35%3A48Z&ske=2025-05-05T18%3A35%3A48Z&sks=b&skv=2024-08-04&sig=mQ7Umgfc/IaQDUfkVTBua94l1UvcCAySbCUhH%2BLKPmM%3D)
 
 
 
