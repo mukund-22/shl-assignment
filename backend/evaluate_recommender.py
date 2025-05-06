@@ -29,7 +29,7 @@ def main():
     test_df.to_csv('data/processed/test_assessments.csv', index=False)
 
     print("Evaluating SHLRecommender...")
-    recommender = SHLRecommender(data_path='data/processed/train_assessments.csv')
+    recommender = SHLRecommender(catalog_path='data/processed/train_assessments.csv')
     benchmark_queries = generate_benchmark_queries(test_df)
     compute_metrics(benchmark_queries, recommender, k=5)
 
